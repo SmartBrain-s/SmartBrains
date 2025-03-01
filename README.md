@@ -3,9 +3,10 @@
 </div> <br>  <br> 
 
 
-<div align="center"> 
-  Esta API foi projetada com o objetivo de facilitar a integração, permitindo que os clientes acessem e interajam com os dados armazenados no Banco de Dados de maneira eficiente, por meio dos endpoints   
-  disponíveis.
+<div align="center">
+  Esta API foi projetada com o intuito de ajudar as pessoas a exercerem um controle mais eficaz sobre seus gastos financeiros. Com ela, os usuários podem acessar e interagir de forma prática e eficiente com seus dados financeiros, permitindo o        
+  monitoramento detalhado de suas despesas e a organização de suas finanças. Por meio dos endpoints disponíveis, a API oferece uma maneira ágil e segura de integrar e analisar informações, facilitando a tomada de decisões mais conscientes e o planejamento     
+  financeiro pessoal.
 </div>
 
 
