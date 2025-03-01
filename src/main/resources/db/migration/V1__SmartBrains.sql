@@ -28,7 +28,7 @@ CREATE TABLE IF NOT EXISTS usuarios (
     profissao VARCHAR(100) NOT NULL,
     empresa VARCHAR(100) NOT NULL,
     data_nascimento DATE NOT NULL,
-    telefone VARCHAR(20),
+    telefone VARCHAR(20) NOT NULL,
     id_genero INT NOT NULL,
     id_estadocivil INT NOT NULL,
     id_situacaocadastro INT NOT NULL,
