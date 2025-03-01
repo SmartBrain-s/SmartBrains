@@ -18,6 +18,8 @@
 
 * Java 21
 
+* DBeaver
+
 * Postgres 16
 
 * Spring Boot 3.3.9
