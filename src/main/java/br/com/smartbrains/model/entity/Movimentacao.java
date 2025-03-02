@@ -21,7 +21,7 @@ public class Movimentacao {
     @NotNull
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "id_usuario", nullable = false)
-    private Usuarios id_usuario;
+    private Usuario id_usuario;
 
     @NotNull
     @ManyToOne(fetch = FetchType.LAZY, optional = false)

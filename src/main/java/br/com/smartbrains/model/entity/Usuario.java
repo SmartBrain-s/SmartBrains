@@ -12,7 +12,7 @@ import java.sql.Date;
 @Setter
 @Entity
 @Table(name = "usuarios", schema = "public")
-public class Usuarios {
+public class Usuario {
 
     @Id
     @Column(name = "id", nullable = false)
@@ -66,14 +66,13 @@ public class Usuarios {
     @NotNull
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "id_genero", nullable = false)
-    private Generos id_genero;
+    private Genero id_genero;
 
     @NotNull
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "id_estadocivil", nullable = false)
     private EstadoCivil id_estadoCivil;
 
-    @NotNull
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "id_situacaocadastro", nullable = false)
     private SituacaoCadastro id_situacaoCadastro;

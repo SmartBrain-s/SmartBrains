@@ -31,7 +31,7 @@ CREATE TABLE IF NOT EXISTS usuarios (
     telefone VARCHAR(20) NOT NULL,
     id_genero INT NOT NULL,
     id_estadocivil INT NOT NULL,
-    id_situacaocadastro INT NOT NULL,
+    id_situacaocadastro INT DEFAULT 1,
     data_criacao DATE DEFAULT CURRENT_DATE,
     FOREIGN KEY (id_genero) REFERENCES generos(id),
     FOREIGN KEY (id_estadocivil) REFERENCES estado_civil(id)

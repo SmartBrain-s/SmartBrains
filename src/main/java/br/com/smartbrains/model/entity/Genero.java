@@ -10,7 +10,7 @@ import lombok.Setter;
 @Setter
 @Entity
 @Table(name = "generos", schema = "public")
-public class Generos {
+public class Genero {
 
     @Id
     @Column(name = "id", nullable = false)
