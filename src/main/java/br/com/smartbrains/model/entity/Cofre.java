@@ -21,7 +21,7 @@ public class Cofre {
     @NotNull
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "id_usuario", nullable = false)
-    private Usuario id_usuario;
+    private Usuarios id_usuario;
 
     @NotNull
     @ManyToOne(fetch = FetchType.LAZY, optional = false)

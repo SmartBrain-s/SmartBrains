@@ -34,7 +34,8 @@ CREATE TABLE IF NOT EXISTS usuarios (
     id_situacaocadastro INT DEFAULT 1,
     data_criacao DATE DEFAULT CURRENT_DATE,
     FOREIGN KEY (id_genero) REFERENCES generos(id),
-    FOREIGN KEY (id_estadocivil) REFERENCES estado_civil(id)
+    FOREIGN KEY (id_estadocivil) REFERENCES estado_civil(id),
+    FOREIGN KEY (id_situacaocadastro) REFERENCES situacao_cadastro(id)
 );
 
 CREATE TABLE IF NOT EXISTS cofre (

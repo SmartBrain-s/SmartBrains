@@ -12,7 +12,7 @@ import java.sql.Date;
 @Setter
 @Entity
 @Table(name = "usuarios", schema = "public")
-public class Usuario {
+public class Usuarios {
 
     @Id
     @Column(name = "id", nullable = false)
